@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Иван Копысов](https://up.htmlacademy.ru/htmlcss/16/user/197353).
-* Наставник: [Сергей Зубов].
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
 
 ---
 
