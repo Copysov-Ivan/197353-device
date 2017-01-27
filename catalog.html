@@ -41,132 +41,138 @@
       </div>
     </header>
 
-    <main class="container">
-      <h1>Моноподы для селфи</h1>
-      <ul class="breadcrumbs">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="#">Каталог товаров</a></li>
-          <li><a class="breadcrumbs-active" href="#">Моноподы для селфи</a></li>
-      </ul>
+    <main>
+      <section class="main-title container">
+        <h1>Моноподы для селфи</h1>
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Каталог товаров</a></li>
+            <li><a class="breadcrumbs-active" href="#">Моноподы для селфи</a></li>
+        </ul>
+      </section>
       <section class="top-main">
-        <div class="filter-title">
-          <h2>Фильтр:</h2>
-        </div>
-        <div class="sorting">
-          <h2>Сортировка:</h2>
-          <ul class="sorting-type">
-            <li><a href="#" class="active">По цене</a></li>
-            <li><a href="#">По типу</a></li>
-            <li><a href="#">По популярности</a></li>
-          </ul>
-          <div class="sorting-btn">
-            <a href="#" class="btn-up">Вверх</a>
-            <a href="#" class="btn-down">Вниз</a>
+        <div class="container">
+          <div class="filter-title">
+            <h2>Фильтр:</h2>
+          </div>
+          <div class="sorting">
+            <h2>Сортировка:</h2>
+            <ul class="sorting-type">
+              <li><a href="#" class="active">По цене</a></li>
+              <li><a href="#">По типу</a></li>
+              <li><a href="#">По популярности</a></li>
+            </ul>
+            <div class="sorting-btn">
+              <a href="#" class="btn-up">Вверх</a>
+              <a href="#" class="btn-down">Вниз</a>
+            </div>
           </div>
         </div>
       </section>
       <section class="catalog">
-        <aside class="filter-catalog">
-          <form action="https://echo.htmlacademy.ru" method="post">
-            <div class="cost">
-              <b>Стоимость</b>
-              <div class="range-controls">
-                <div class="scale">
-                  <div class="bar"></div>
+        <div class="container">
+          <aside class="filter-catalog">
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <div class="cost">
+                <b>Стоимость</b>
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="toggle min-toggle"></div>
+                  <div class="toggle max-toggle"></div>
                 </div>
-                <div class="toggle min-toggle"></div>
-                <div class="toggle max-toggle"></div>
+                <div class="range-price">
+                  <span>от 0</span>
+                  <span>до 5000</span>
+                </div>
               </div>
-              <div class="range-price">
-                <span>от 0</span>
-                <span>до 5000</span>
+              <div class="color">
+                <b>Цвет</b>
+                  <label>
+                    <input type="checkbox" name="black" value="" checked>
+                    Черный
+                  </label>
+                  <label>
+                    <input type="checkbox" name="white" value="">
+                    Белый
+                  </label>
+                  <label>
+                    <input type="checkbox" name="blue" value="" checked>
+                    Синий
+                  </label>
+                  <label>
+                    <input type="checkbox" name="red" value="" checked>
+                    Красный
+                  </label>
+                  <label>
+                    <input type="checkbox" name="pink" value="">
+                    Розовый
+                  </label>
               </div>
-            </div>
-            <div class="color">
-              <b>Цвет</b>
+              <div class="bluetooth">
+                <b>Bluetooth</b>
                 <label>
-                  <input type="checkbox" name="black" value="" checked>
-                  Черный
+                  <input type="radio" name="bluetooth" value="">
+                  Да
                 </label>
                 <label>
-                  <input type="checkbox" name="white" value="">
-                  Белый
+                  <input type="radio" name="bluetooth" value="">
+                  Нет
                 </label>
-                <label>
-                  <input type="checkbox" name="blue" value="" checked>
-                  Синий
-                </label>
-                <label>
-                  <input type="checkbox" name="red" value="" checked>
-                  Красный
-                </label>
-                <label>
-                  <input type="checkbox" name="pink" value="">
-                  Розовый
-                </label>
-            </div>
-            <div class="bluetooth">
-              <b>Bluetooth</b>
-              <label>
-                <input type="radio" name="bluetooth" value="">
-                Да
-              </label>
-              <label>
-                <input type="radio" name="bluetooth" value="">
-                Нет
-              </label>
-            </div>
-            <button class="btn" type="submit">Показать</button>
-          </form>
-        </aside>
-        <div class="catalog-content">
-          <div class="catalog-items">
-            <article class="catalog-item">
-              <img src="http://placehold.it/360x380" width="360" height="380" alt="Любительская селфи-палка">
-              <div class="hover">
-                <a href="#" class="btn">В корзину</a>
-                <a href="#" class="add-to-compare">Добавить к сравнению</a>
               </div>
-              <a href="#">Любительская селфи-палка</a>
-              <span>500 руб.</span>
-            </article>
+              <button class="btn" type="submit">Показать</button>
+            </form>
+          </aside>
+          <div class="catalog-content">
+            <div class="catalog-items">
+              <article class="catalog-item">
+                <img src="http://placehold.it/360x380" width="360" height="380" alt="Любительская селфи-палка">
+                <div class="hover">
+                  <a href="#" class="btn">В корзину</a>
+                  <a href="#" class="add-to-compare">Добавить к сравнению</a>
+                </div>
+                <a href="#">Любительская селфи-палка</a>
+                <span>500 руб.</span>
+              </article>
 
-            <article class="catalog-item">
-              <img src="http://placehold.it/360x380" width="360" height="380" alt="Профессиональная селфи-палка">
-              <div class="hover">
-                <a href="#" class="btn">В корзину</a>
-                <a href="#" class="add-to-compare">Добавить к сравнению</a>
-              </div>
-              <a href="#">Профессиональная селфи-палка</a>
-              <span>1 500 руб.</span>
-            </article>
-            <article class="catalog-item">
-              <img src="http://placehold.it/360x380" width="360" height="380" alt="Непотопляемая селфи-палка">
-              <div class="hover">
-                <a href="#" class="btn">В корзину</a>
-                <a href="#" class="add-to-compare">Добавить к сравнению</a>
-              </div>
-              <a href="#">Непотопляемая селфи-палка</a>
-              <span>2 500 руб.</span>
-            </article>
-            <article class="catalog-item">
-              <img src="http://placehold.it/360x380" width="360" height="380" alt="Селфи-палка следуй за мной">
-              <div class="hover">
-                <a href="#" class="btn">В корзину</a>
-                <a href="#" class="add-to-compare">Добавить к сравнению</a>
-              </div>
-              <a href="#">Селфи-палка следуй за мной</a>
-              <span>4 900 руб.</span>
-            </article>
-          </div>
-          <div class="catalog-paginator">
-            <a class="catalog-paginator-left" href="#">Назад</a>
-            <div class="catalog-paginator-center">
-              <a class="catalog-paginator-active" href="#">1</a>
-              <a href="#">2</a>
-              <a href="#">3</a>
-            </div>            
-            <a class="catalog-paginator-right" href="#">Вперед</a>
+              <article class="catalog-item">
+                <img src="http://placehold.it/360x380" width="360" height="380" alt="Профессиональная селфи-палка">
+                <div class="hover">
+                  <a href="#" class="btn">В корзину</a>
+                  <a href="#" class="add-to-compare">Добавить к сравнению</a>
+                </div>
+                <a href="#">Профессиональная селфи-палка</a>
+                <span>1 500 руб.</span>
+              </article>
+              <article class="catalog-item">
+                <img src="http://placehold.it/360x380" width="360" height="380" alt="Непотопляемая селфи-палка">
+                <div class="hover">
+                  <a href="#" class="btn">В корзину</a>
+                  <a href="#" class="add-to-compare">Добавить к сравнению</a>
+                </div>
+                <a href="#">Непотопляемая селфи-палка</a>
+                <span>2 500 руб.</span>
+              </article>
+              <article class="catalog-item catalog-item-new">
+                <img src="http://placehold.it/360x380" width="360" height="380" alt="Селфи-палка следуй за мной">
+                <div class="hover">
+                  <a href="#" class="btn">В корзину</a>
+                  <a href="#" class="add-to-compare">Добавить к сравнению</a>
+                </div>
+                <a href="#">Селфи-палка следуй за мной</a>
+                <span>4 900 руб.</span>
+              </article>
+            </div>
+            <div class="catalog-paginator">
+              <a class="catalog-paginator-left" href="#">Назад</a>
+              <div class="catalog-paginator-center">
+                <a class="catalog-paginator-active" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+              </div>            
+              <a class="catalog-paginator-right" href="#">Вперед</a>
+            </div>
           </div>
         </div>
       </section>
