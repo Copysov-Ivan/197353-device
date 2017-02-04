@@ -27,6 +27,7 @@ h2 {
 
 .main-header {
   width: 1040px; /*1160px-padding*/
+  min-height: 299px;
   background-color: #f7e296;
   padding-left: 60px;
   padding-right: 60px;
@@ -66,6 +67,50 @@ div a.user-login {
 .top-header .logo {
   position: absolute;
 }
+
+.main-header ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.main-navigation li:nth-child(1) {
+  display: flex;
+  width: 300px;
+  margin-right: 240px;
+}
+
+.main-navigation li:nth-child(2) {
+  display: flex;
+}
+
+.main-navigation li:nth-child(3) {
+  display: flex;
+  width: 140px;
+  margin-left: auto;
+}
+
+.catalog-goods {
+  width: 600px;
+}
+
+.catalog-goods li {
+  width: 200px;
+}
+
+.catalog-goods li:nth-child(5) {
+  margin-right: 200px;
+}
+
+.main-navigation li:nth-child(4) {
+  display: flex;
+  width: 140px;
+  justify-content: flex-end;
+  margin-left: 60px;
+}
+
+
 
 .slider {
   margin-bottom: 106px;
