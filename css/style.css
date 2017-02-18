@@ -527,11 +527,17 @@ div a.user-login {
   top: -111px;
 }
 
-.slider input:checked + div {
+#selfie-stick:checked ~ .slide1,
+#fitness-bracelet:checked ~ .slide2,
+#quadrocopter:checked ~ .slide3 {
   visibility: visible;
 }
 
-
+#selfie-stick:checked ~ .slider-btn .selfie-stick,
+#fitness-bracelet:checked ~ .slider-btn .fitness-bracelet,
+#quadrocopter:checked ~ .slider-btn .quadrocopter {
+  opacity: 1;
+}
 
 .slider-btn {
   list-style: none;
@@ -839,8 +845,35 @@ div a.user-login {
   top: -2px;
 }
 
-.services-description input:checked + div {
+#delivery:checked ~ .services-description .services-delivery,
+#guarantee:checked ~ .services-description .services-guarantee,
+#credit:checked ~ .services-description .services-credit {
   visibility: visible;
+}
+
+#delivery:checked ~ .services-btn .delivery::before,
+#guarantee:checked ~ .services-btn .guarantee::before,
+#credit:checked ~ .services-btn .credit::before {
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  z-index: -1;
+  position: absolute;
+}
+
+#delivery:checked ~ .services-btn .delivery,
+#guarantee:checked ~ .services-btn .guarantee,
+#credit:checked ~ .services-btn .credit {
+  color: #f7e184;
+}
+
+#delivery:checked ~ .services-btn .span-delivery,
+#guarantee:checked ~ .services-btn .span-guarantee,
+#credit:checked ~ .services-btn .span-credit {
+  opacity: 1;
 }
 
 .services-delivery {

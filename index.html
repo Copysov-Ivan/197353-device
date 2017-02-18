@@ -44,18 +44,22 @@
 
     <main>
       <section class="slider container">
+        <input class="none" type="radio" name="slider-btn" id="selfie-stick" value="" checked>
+        <input class="none" type="radio" name="slider-btn" id="fitness-bracelet" value="">
+        <input class="none" type="radio" name="slider-btn" id="quadrocopter" value="">
+
         <ul class="slider-btn">
-          <li>            
-            <label for="selfie-stick" class="active"></label>
+          <li>
+            <label class="selfie-stick" for="selfie-stick"></label>
           </li>
           <li>            
-            <label for="fitness-bracelet"></label>
+            <label class="fitness-bracelet" for="fitness-bracelet"></label>
           </li>
           <li>
-            <label for="quadrocopter"></label>
+            <label class="quadrocopter" for="quadrocopter"></label>
           </li>
         </ul>
-        <input class="none" type="radio" name="slider-btn" id="selfie-stick" value="" checked>
+        
         <div class="slide1">
           <div class="slide-image">
             <img src="img/slider-1.png" width="384" height="486" alt="Палка для селфи">
@@ -81,7 +85,7 @@
             </ul>
           </div>
         </div>
-        <input class="none" type="radio" name="slider-btn" id="fitness-bracelet" value="">
+        
         <div class="slide2">
           <div class="slide-image">
             <img src="img/slider-2.png" width="345" height="485" alt="Фитнесc-браслет">
@@ -99,7 +103,7 @@
             </ul>
           </div>
         </div>
-        <input class="none" type="radio" name="slider-btn" id="quadrocopter" value="">
+        
         <div class="slide3">
           <div class="slide-image">
             <img src="img/slider-3.png" width="526" height="334" alt="Квадрокоптер">
@@ -164,39 +168,42 @@
 
       <section class="services">        
         <div class="services-block container">
+          <input class="none" type="radio" name="services" id="delivery" checked>
+          <input class="none" type="radio" name="services" id="guarantee">
+          <input class="none" type="radio" name="services" id="credit">
           <ul class="services-btn">
             <li>
-              <label class="btn btn-active" for="delivery">
-                <span>Доставка</span>
+              <label class="btn delivery" for="delivery">
+                <span class="span-delivery">Доставка</span>
               </label>
             </li>
             <li>
-              <label class="btn" for="guarantee">
-                <span>Гарантия</span>
+              <label class="btn guarantee" for="guarantee">
+                <span class="span-guarantee">Гарантия</span>
               </label>
             </li>
             <li>
-              <label class="btn" for="credit">
-                <span>Кредит</span>
+              <label class="btn credit" for="credit">
+                <span class="span-credit">Кредит</span>
               </label>
             </li>
           </ul>
           <div class="services-description">
-            <input class="none" type="radio" name="services" id="delivery" checked>
+            
             <div class="services-delivery">
               <div class="description-left">
                 <h2>Доставка</h2>
                 <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>                
               </div>
             </div>
-            <input class="none" type="radio" name="services" id="guarantee">            
+            
             <div class="services-guarantee">
               <div class="description-left">
                 <h2>Гарантия</h2>
                 <p>Если из-за возгарания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.<br>Товар, не дом, конечно же.</p>
               </div>
             </div>            
-            <input class="none" type="radio" name="services" id="credit">
+            
             <div class="services-credit">
               <div class="description-left">
                 <h2>Кредит</h2>
