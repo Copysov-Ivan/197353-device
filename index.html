@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Device</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -256,7 +257,7 @@
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
           <a href="#">
-            <img src="img/map.jpg" class="map" width="560" height="222">
+            <img src="img/map.jpg" class="map" width="560" height="222" alt="Карта">
           </a>
           <a href="#" class="btn"><span>Напишите нам</span></a>
         </div>
@@ -294,20 +295,24 @@
     </footer>
 
     <section class="write-popop">
-        <a href="#" class="write-popop-close">Закрыть</a>
-        <form action="https://echo.htmlacademy.ru" method="post">
-          <label>Ваше имя:
-            <input type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
-          </label>
-          <label>Ваш e-mail:
-            <input type="text" name="e-mail" value="" placeholder="Для отправки ответа">
-          </label>
-          <label>Текст письма:
-            <textarea type="text" name="text" value="" placeholder="В свободной форме">
-            </textarea>           
-          </label>
-          <button class="btn" type="submit">Отправить</button>
-        </form>
-      </section>
+      <a href="#" class="write-popop-close">Закрыть</a>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <label>Ваше имя:
+          <input type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+        </label>
+        <label>Ваш e-mail:
+          <input type="text" name="e-mail" value="" placeholder="Для отправки ответа">
+        </label>
+        <label>Текст письма:
+          <textarea name="text">В свободной форме</textarea>           
+        </label>
+        <button class="btn" type="submit"><span>Отправить</span></button>
+      </form>
+    </section>
+
+    <section class="modal-map">
+      <a class="write-popop-close">Закрыть</a>
+      
+    </section>
   </body>
 </html>
