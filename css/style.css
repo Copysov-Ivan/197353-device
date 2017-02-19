@@ -179,6 +179,7 @@ body {
   margin-left: auto;
   line-height: 36px;
   position: relative;
+  font-weight: 700;
 }
 
 .main-header-index {
@@ -246,6 +247,7 @@ div a.user-login {
   padding-left: 26px;
   position: relative;
   height: 36px;
+  letter-spacing: 0.018em;
 }
 
 .main-header .user-login::before {
@@ -630,11 +632,12 @@ div a.user-login {
   font-size: 47px;
   color: #000;
   font-family: "Gilroy ExtraBold", "Arial", sans-serif;
-  line-height: initial;
-  margin-top: 78px;
+  line-height: 56px;
+  margin-top: 79px;
   margin-left: -4px;
-  margin-bottom: 16px;
+  margin-bottom: 19px;
   position: relative;
+  letter-spacing: 0.014em;
 }
 
 .slide-description p {
@@ -673,6 +676,7 @@ div a.user-login {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  font-weight: 700;
 }
 
 
@@ -757,7 +761,7 @@ div a.user-login {
   color: #000;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.019em;
   width: 160px;
 }
 
@@ -966,12 +970,14 @@ div a.user-login {
   margin-bottom: 25px;
   font-size: 47px;
   font-family: "Gilroy ExtraBold", "Arial", sans-serif;
-  line-height: initial;
+  line-height: 59px;
+  letter-spacing: 0.022em;
 }
 
 .description-left p {
   margin: 0;
   color: #464646;
+  letter-spacing: 0.019em;
 }
 
 .partners {
@@ -1035,15 +1041,17 @@ div a.user-login {
   font-size: 47px;
   color: #000;
   font-family: "Gilroy ExtraBold", "Arial", sans-serif;
-  line-height: initial;
+  line-height: 58px;
   margin-top: 47px;
   margin-bottom: 38px;
   margin-left: -2px;
+  letter-spacing: 0.015em;
 }
 
 .info p {
   margin: 0;
   margin-bottom: 30px;
+  letter-spacing: 0;
 }
 
 .about-us {
@@ -1406,6 +1414,7 @@ div a.user-login {
   font-size: 47px;
   color: #000;
   font-family: "Gilroy ExtraBold", "Arial", sans-serif;
+  letter-spacing: 0.014em;
 }
 
 .main-title h1,
@@ -1428,6 +1437,11 @@ ul.breadcrumbs {
   color: #000;
   opacity: 0.3;
   font-size: 14px;
+  letter-spacing: 0;
+}
+
+.breadcrumbs li:nth-child(3) a {
+  letter-spacing: 0.01em;
 }
 
 .breadcrumbs a:hover {
@@ -1469,7 +1483,7 @@ ul.breadcrumbs {
 
 .main-title.container {
   display: block;
-  margin-bottom: 43px;
+  margin-bottom: 42px;
 }
 
 .top-main {
@@ -1514,6 +1528,8 @@ ul.breadcrumbs {
 .filter-title h2,
 .sorting h2 {
   font-size: 16px;
+  letter-spacing: 0.22em;
+  padding-left: 1px;
 }
 
 .sorting {
@@ -1541,11 +1557,23 @@ ul.breadcrumbs {
 
 .sorting-type li {
   margin-right: 25px;
+  margin-top: -4px;
+}
+
+.sorting-type li:nth-child(1) {
+  margin-right: 28px;
+}
+
+.sorting-type li:nth-child(2) {
+  margin-right: 31px;
 }
 
 .sorting-type a {
   opacity: 0.3;
   color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
 }
 .sorting-type a.current {
   opacity: 1;
@@ -1641,6 +1669,8 @@ ul.breadcrumbs {
   padding-top: 6px;
   display: block;
   min-height: 62px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .range-controls {
@@ -1695,12 +1725,15 @@ ul.breadcrumbs {
 
 .color {
   min-height: 283px;
+  margin-left: -2px;
 }
 
 .color b {
   display: block;
   padding-top: 6px;
-  margin-bottom: 15px;  
+  margin-bottom: 14px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .color label,
@@ -1710,7 +1743,7 @@ ul.breadcrumbs {
   line-height: 40px;
   display: block;
   position: relative;
-  padding-left: 39px;
+  padding-left: 40px;
   color: #000;
 }
 
@@ -1742,7 +1775,7 @@ ul.breadcrumbs {
   background-repeat: no-repeat;
   background-position: -5px -435px;
   width: 12px;
-  height: 7px;  
+  height: 8px;  
 }
 
 .color input,
@@ -1752,12 +1785,16 @@ ul.breadcrumbs {
 
 .bluetooth {
   margin-bottom: 30px;
+  margin-left: -2px;
 }
 
 .bluetooth b {
   display: block;
   padding-top: 6px;
-  margin-bottom: 15px;  
+  margin-bottom: 14px;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
 }
 
 .bluetooth label::before {
@@ -1799,6 +1836,7 @@ ul.breadcrumbs {
   position: relative;
   z-index: 0;
   cursor: pointer;
+  margin-left: -1px;
 }
 
 
@@ -1840,7 +1878,7 @@ ul.breadcrumbs {
 
 .catalog-item {
   width: 360px;
-  margin-bottom: 37px;
+  margin-bottom: 50px;
   position: relative;
 }
 
@@ -1949,6 +1987,9 @@ ul.breadcrumbs {
   font-family: "Gilroy ExtraBold", "Arial", sans-serif;
   font-size: 18px;
   color: #000;
+  letter-spacing: 0.016em;
+  line-height: 21px;
+  margin-top: 5px;
 }
 
 .title-price a:hover {
@@ -2009,6 +2050,10 @@ ul.breadcrumbs {
   background-color: #d9d9d9;
 }
 
+.catalog-paginator-left span{
+  margin-right: -5px;
+}
+
 .catalog-paginator-left:active span {
   opacity: 0.3;
 }
@@ -2055,6 +2100,10 @@ a.current {
 
 .catalog-paginator-right:hover {
   background-color: #d9d9d9;
+}
+
+.catalog-paginator-right span {
+  margin-left: -5px;
 }
 
 .catalog-paginator-right:active span {
