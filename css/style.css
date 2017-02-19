@@ -248,6 +248,7 @@ div a.user-login {
   position: relative;
   height: 36px;
   letter-spacing: 0.018em;
+  display: block;
 }
 
 .main-header .user-login::before {
@@ -265,12 +266,14 @@ div a.user-login {
   margin: 0;
   width: auto;
   opacity: 0.3;
+  display: block;
 }
 
 .main-header a.compare {
   width: 96px;
   padding-right: 4px;
   position: relative;
+  display: block;
 }
 
 .main-header a.compare::before {
@@ -286,6 +289,7 @@ div a.user-login {
 
 .main-header .cart {
   position: relative;
+  display: block;
 }
 
 .main-header .cart::before {
@@ -763,6 +767,7 @@ div a.user-login {
   line-height: 22px;
   letter-spacing: 0.019em;
   width: 160px;
+  display: block;
 }
 
 .catalog-goods-item:nth-child(3) img {
@@ -991,6 +996,8 @@ div a.user-login {
 .partners-img {
   position: relative;
   margin-right: 40px;
+  width: 260px;
+  display: block;
 }
 
 .partners-img:nth-child(3) {
@@ -1052,6 +1059,7 @@ div a.user-login {
   margin: 0;
   margin-bottom: 30px;
   letter-spacing: 0;
+  padding-right: 10px;
 }
 
 .about-us {
@@ -1149,6 +1157,8 @@ div a.user-login {
   margin-left: auto;
   margin-right: 100px;
   position: relative;
+  display: block;
+  min-height: 323px;
 }
 
 .footer-left::before {
@@ -1589,14 +1599,16 @@ ul.breadcrumbs {
 
 .sorting-btn {
   width: 60px;
+  height: 70px;
   font-size: 0;
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
+  display: block;
 }
 
 .btn-up {
-  margin-right: 26px;  
+  margin-right: 43px;  
 }
 
 .btn-up,
@@ -1619,7 +1631,7 @@ ul.breadcrumbs {
   background-repeat: no-repeat;
   width: 17px;
   height: 9px;
-  top: 10px;
+  top: 15px;
 }
 
 .sorting-btn a:hover:not(.current) {
@@ -2041,9 +2053,6 @@ ul.breadcrumbs {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .catalog-paginator-left:hover {
@@ -2052,6 +2061,8 @@ ul.breadcrumbs {
 
 .catalog-paginator-left span{
   margin-right: -5px;
+  padding-top: 20px;
+  display: block;
 }
 
 .catalog-paginator-left:active span {
@@ -2069,6 +2080,7 @@ ul.breadcrumbs {
   width: 36px;
   text-align: center;
   opacity: 0.3;
+  display: block;
 }
 
 .catalog-paginator-center a:hover:not(.current) {
@@ -2093,9 +2105,9 @@ a.current {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
+  /*-webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center;*/
 }
 
 .catalog-paginator-right:hover {
@@ -2104,6 +2116,8 @@ a.current {
 
 .catalog-paginator-right span {
   margin-left: -5px;
+  padding-top: 20px;
+  display: block;
 }
 
 .catalog-paginator-right:active span {
